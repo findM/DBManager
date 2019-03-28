@@ -16,7 +16,7 @@ class DBManager: NSObject {
     }
     
     fileprivate override init() {
-        let path = ConsDocumentPath + "bishijieDB.sqlite"
+        let path = ConsDocumentPath + "db.sqlite"
         
         db = FMDatabase(path: path)
         
